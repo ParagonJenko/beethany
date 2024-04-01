@@ -1,0 +1,177 @@
+/* App.css */
+
+/* Define color variables */
+:root {
+  --primary-color: #ffd6ff;
+  /* Main background color */
+  --secondary-color: #e7c6ff;
+  /* Secondary background color */
+  --accent-color-1: #c8b6ff;
+  /* Primary text and button color */
+  --accent-color-2: #b8c0ff;
+  /* Secondary text color */
+  --accent-color-3: #bbd0ff;
+  /* Link and hover color */
+}
+
+/* Apply color scheme to specific elements */
+body {
+  background-color: var(--primary-color);
+  color: var(--accent-color-1);
+}
+
+/* Navbar and button styles */
+.navbar,
+.navbar-nav,
+.nav-link {
+  color: var(--accent-color-1) !important;
+}
+
+.navbar {
+  background-color: var(--secondary-color);
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: var(--accent-color-3);
+  border-color: var(--accent-color-3);
+  color: var(--primary-color);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--accent-color-2);
+  border-color: var(--accent-color-2);
+}
+
+/* Card styles */
+.card {
+  background-color: var(--secondary-color);
+  color: #000;
+  border-color: var(--accent-color-3);
+}
+
+/* Footer styles */
+.footer {
+  background-color: var(--secondary-color);
+  color: var(--accent-color-1);
+}
+
+/* Iframe styles */
+.embed-responsive-item {
+  border: 2px solid var(--accent-color-3);
+}
+
+/* Text styles */
+h3 {
+  color: var(--accent-color-3);
+}
+
+/* Social link button styles */
+.button-group .btn {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.button-group .btn:hover,
+.button-group .btn:focus {
+  background-color: var(--accent-color-3);
+  border-color: var(--accent-color-3);
+}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light, .about-bee {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+p {
+font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.twitch {
+  background-color: #6441A5;
+}
+
+.tiktok {
+  background-color: #69C9D0
+}
+
+.instagram {
+  background-color: #E4405F
+}
+
+.twitter {
+  background-color: #1DA1F2
+}
+
+.youtube {
+  background-color: #FF0000
+}
+
+.throne {
+  background-color: #392F43
+}
