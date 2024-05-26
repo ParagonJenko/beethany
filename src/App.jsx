@@ -5,6 +5,8 @@ import './App.css';
 import Header from './components/Header';
 import AboutCreator from './components/AboutCreator';
 import SocialMediaLinks from './components/SocialMediaLinks';
+import YouTubeVideos from './VideosYouTube';
+import TikTokVideos from './VideosTikTok';
 
 function App() {
 	return (
@@ -12,6 +14,8 @@ function App() {
 			<Container>
 				<Header />
 			</Container>
+			<YouTubeVideos />
+			<TikTokVideos />
 			<hr />
 			<Container>
 				<Row>
