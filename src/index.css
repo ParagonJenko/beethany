@@ -176,12 +176,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #392F43
 }
 
-.youtube-bg {
-  background-color: rgba(255, 0, 0, 0.2);
-  /* Red with 20% opacity */
-}
-
-.tiktok-bg {
-  background-color: rgba(0, 0, 0, 0.2);
-  /* Black with 20% opacity */
+.videos-background {
+  background-color: #ffafcc;
 }
